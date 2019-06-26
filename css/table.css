@@ -1,0 +1,55 @@
+#table{
+    /* 定义整个表格区域的宽高，并使其居中 */
+    width: 100%;
+    height: 720px;
+    background:whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    
+}
+caption span{
+    /* 设置表格标题宽高和字号，并垂直居中 */
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    font-size:30px;
+    font-weight: bold; 
+    vertical-align: middle;
+}
+caption img:hover{
+    /* 点击图片放大，缓动时间为0.8s */
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+table{
+    /* 表格增大顶部距离，水平居中 */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.date{
+
+    width: 100px;
+    height: 100px;;
+}
+.table_img{
+    /* 设置表格内图片的圆角和盒子阴影，设置原始原始旋转角为0，缓动1.2s */
+    border-radius:10px;
+    box-shadow: 5px 5px 5px gray; 
+    transform: rotateZ(0deg);
+    transition-timing-function: ease-in-out;
+    transition: 1.2s;
+}
+.table_img:hover{
+    /* 设置图片点击z轴旋转 */
+    transform: rotateZ(360deg);
+    transition-timing-function: ease-in-out;
+    transition: 1.2s;
+}
+.num{
+    /* 改变字体颜色 */
+    color: deeppink;
+}

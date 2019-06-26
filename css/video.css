@@ -1,0 +1,41 @@
+#video{
+    /* 定义视频区域宽高,并居中显示 */
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+#left{
+    /* 定义左边视频宽高 */
+    width: 45%;
+    height: 300px;
+    display: inline-block;
+}
+#right{
+    /* 定义右边视频宽高 */
+    width: 45%;
+    height: 300px;
+    display: inline-block;
+}
+
+#top2{
+    /* 设置标题宽高 和底部间距*/
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+}
+#video img{
+    /* 图片垂直居中 */
+    vertical-align: middle;
+}
+#video span{
+    /* 设置文字大小并和图标在一行垂直居中 */
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#video img:hover{
+    /* 图标点击放大缓动1s */
+    transform: scale(1.2);
+    transition: 1s;
+}

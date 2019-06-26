@@ -1,0 +1,75 @@
+body{
+    /* 消除横向滚动条 */
+    overflow-x: hidden;
+}
+#head .nav .Avatar img{
+    /* 设置图片宽高以及圆角度 */
+    width: 30px;
+    height: 30px;
+    border: 5px solid rgb(0, 0, 205,.6);
+    border-radius: 50%;
+    margin-top:-10px ;
+}
+.Avatar img:hover{
+    /* 设置悬浮过渡效果 */
+    transform: scale(1.2);
+    transition: .8s;
+}
+#head .nav>ul>li>a{
+    /* 设置每个li之间的距离，使其分开排列 */
+    color:black;
+    float: left;
+    margin-right: 2em; 
+    line-height: 20px;
+}
+
+
+#head{
+    /* 定义head部分宽高，并且使其固定在浏览器顶部 */
+    width:100%;
+	height: 80px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    /* margin-top: -200px;
+    margin-left: -400px; */
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    padding: 30px;
+    box-sizing: border-box;
+    }
+#head::after{
+    /* 设置导航栏毛玻璃效果 */
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    /*-1 可以当背景*/
+    filter: blur(30px);/* 模糊度30px */
+    margin: -50px;  /* 消除边缘透明 */
+    background: url("../pic/BG.jpg") center top;
+    background-size: cover;
+    /*平铺*/
+    background-attachment: fixed;/* 固定背景 */
+}
+#head .search div input{
+    /* 设置搜索框宽高并向右侧浮动 */
+    width: 200px;
+    height: 25px;
+    display: inline-block;
+    float: right;
+    border-radius: 16px;
+}
+#head .search a img{
+    /* 设置搜索图标位置和大小 */
+    float: right;
+    margin-left: 10px;
+    width: 2%;
+   
+}
+

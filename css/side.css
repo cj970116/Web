@@ -1,0 +1,52 @@
+
+#content .side ul>li{
+    /* 使li向右浮动并设置宽高，盒子阴影，设置字体大小和字间距 */
+    float: right;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background: #ffafc9; 
+    box-shadow: 2px 2px 5px gray;
+    font-size: 16px;
+}
+#content .side ul{
+    /* 使ul绝对定位到合适的位置 */
+    position: absolute;
+    top: 150px;
+    right:100px ;
+}
+
+#content .side .tag{
+    /* 设置标题行字号和外边距并居中显示 */
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+}
+#content .side>ul{
+    /* 设置列表的宽高和圆角，并设置盒子阴影 */
+    width:300px;
+	height: 500px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    padding: 30px;
+    box-sizing: border-box;
+}
+#content .side>ul::after{
+    /* 设置透明玻璃效果 */
+    filter: blur(10px);
+    margin: 200px;/* 消除模糊 */
+    background: url("pic/bg.jpg") center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+

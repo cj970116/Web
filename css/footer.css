@@ -1,0 +1,47 @@
+#footer{
+    /* 定义footer区域宽高并水平居中 */
+    width: 1300px;
+    height: 260px;
+    margin: 50px  auto 10px ;
+}
+#left_foot,#mid_foot{
+    /* 定义左,中区域宽高,添加右边框做出竖线效果 */
+    width: 400px;
+    height:200px;
+    display: inline-block;
+    border-right:1px solid rgb(128, 128, 128,.3); 
+    padding-right: 20px;
+    
+}
+
+.tips{
+    /* 设置每个li标签里的字体大小,使其向左浮动 */
+    float: left;
+    margin-left: 40PX;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 16px;
+}
+#right_foot{
+    /* 设置右边区域宽高并向右浮动 */
+    display: inline-block;
+    width: 350px;
+    height:180px;
+    padding-left: 20px;
+    float: right;
+}
+#right_foot img{
+    /* 设置每个图片的右外边距和上内边距 */
+    margin-right: 20px;
+    padding-top:60px; 
+}
+
+.sina,.weixin,.download{
+    /* 统一设置三个图片宽高 */
+width: 80px;
+height: 80px;}
+
+
+
+
+

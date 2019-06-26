@@ -1,0 +1,8 @@
+*{ margin:0; padding:0; } 
+p{margin: 0;padding: 0;}
+img { border:none;display:inline-block; } 
+ul, ol { list-style:none; } 
+body { color:#333; font:18px/20px "SimSun","Arial Narrow",HELVETICA; background:whitesmoke;font-style:normal; font-weight:normal;font-family:微软雅黑; }
+a { color:#666; text-decoration:none; } 
+a:visited { color:#666; } 
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:none; } 
